@@ -1,4 +1,11 @@
 #!/usr/bin/env ruby
 
 require 'first_gem'
-puts FirstGem.hi
+
+if ARG[0] == "hi"
+  puts FirstGem.hi
+elsif ARG[0] == "bye"
+  puts FirstGem.bye
+else
+  puts "usage: hi bye"
+end
