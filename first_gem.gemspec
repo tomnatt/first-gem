@@ -1,17 +1,17 @@
-Gem::Specification.new do |s|
-  s.name        = 'first_gem'
-  s.version     = '0.0.3'
-  s.executables << 'first_gem'
-  s.date        = '2014-11-28'
-  s.summary     = "This is my first kinda-published gem!"
-  s.description = "A simple hello world gem with an exec"
-  s.authors     = ["Tom Natt"]
-  s.email       = 't.w.natt@bath.ac.uk'
-  s.files       = ["lib/first_gem.rb"]
-  s.homepage    = 'http://www.tomnatt.com'
-  s.license     = 'MIT'
+Gem::Specification.new do |spec|
+  spec.name        = 'first_gem'
+  spec.version     = '0.0.3'
+  spec.executables << 'first_gem'
+  spec.date        = '2014-11-28'
+  spec.summary     = "This is my first kinda-published gem!"
+  spec.description = "A simple hello world gem with an exec"
+  spec.authors     = ["Tom Natt"]
+  spec.email       = 't.w.natt@bath.ac.uk'
+  spec.files       = ["lib/first_gem.rb"]
+  spec.homepage    = 'http://www.tomnatt.com'
+  spec.license     = 'MIT'
 
   # want a dependency or two in here too
-  s.add_development_dependency << 'mina'
-  s.add_development_dependency << 'mina-unicorn'
+  spec.add_development_dependency 'mina', '0.3.1'
+  spec.add_development_dependency 'mina-unicorn', '0.0.3'
 end
