@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'first_gem'
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.executables << 'first_gem'
   s.date        = '2014-11-28'
   s.summary     = "This is my first kinda-published gem!"
@@ -12,4 +12,6 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   # want a dependency or two in here too
+  s.add_development_dependency << 'mina'
+  s.add_development_dependency << 'mina-unicorn'
 end
