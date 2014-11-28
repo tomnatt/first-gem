@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'First Gem'
-  s.version     = '0.0.0'
+  s.version     = '0.0.1'
   s.executables << 'first_gem'
   s.date        = '2014-11-28'
   s.summary     = "This is my first kinda-published gem!"
