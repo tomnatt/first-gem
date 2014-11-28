@@ -2,10 +2,10 @@
 
 require 'first_gem'
 
-if ARG[0] == "hi"
-  puts FirstGem.hi
-elsif ARG[0] == "bye"
-  puts FirstGem.bye
+if ARGV[0] == "hi"
+  FirstGem.hi
+elsif ARGV[0] == "bye"
+  FirstGem.bye
 else
   puts "usage: hi bye"
 end
